@@ -20,6 +20,7 @@ Jarvis: Je lance la minuterie pour combien de temps ?
 You: 4 minutes
 Jarvis:  Ok c'est parti pour 4 minutes
 
+NEWS:
 You: Efface la minuterie
 Jarvis:  J'efface toutes les minuteries en cours...
 ```
