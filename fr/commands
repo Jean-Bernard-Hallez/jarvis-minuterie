@@ -1,0 +1,4 @@
+*EFFACE*MINUTE*==say "J'efface toutes les minuteries en cours... $(jv_pg_ct_MinuterieSTOP)"
+*MINUTE*==say "Je lance la minuterie pour combien de temps ?"
+>(*)==say "$(jv_pg_ct_Minuterie)"
+
