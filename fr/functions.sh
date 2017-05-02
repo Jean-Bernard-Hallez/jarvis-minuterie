@@ -37,15 +37,15 @@ fi
 
 
 jv_pg_ct_MinuterieOk () {
-if [ -e "./plugins/jarvis-minuterie/port.txt" ]; then
-echo "$AddressJarvis" > plugins/jarvis-minuterie/port.txt
-./plugins/jarvis-minuterie/minuterie-deb.sh $TempsminOusec
+if [ -e "./plugins_installed/jarvis-minuterie/port.txt" ]; then
+echo "$AddressJarvis" > plugins_installed/jarvis-minuterie/port.txt
+./plugins_installed/jarvis-minuterie/minuterie-deb.sh $TempsminOusec
 
 else
-sudo chmod +x ./plugins/jarvis-minuterie/minuterie-deb.sh
-sudo chmod +x ./plugins/jarvis-minuterie/minuterie-fin.sh
-echo "$AddressJarvis" > plugins/jarvis-minuterie/port.txt
-./plugins/jarvis-minuterie/minuterie-deb.sh $TempsminOusec
+sudo chmod +x ./plugins_installed/jarvis-minuterie/minuterie-deb.sh
+sudo chmod +x ./plugins_installed/jarvis-minuterie/minuterie-fin.sh
+echo "$AddressJarvis" > plugins_installed/jarvis-minuterie/port.txt
+./plugins_installed/jarvis-minuterie/minuterie-deb.sh $TempsminOusec
 fi
 
 }

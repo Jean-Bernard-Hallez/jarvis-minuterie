@@ -10,6 +10,7 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
+(02/05/17 Correction suite modif du "plugins_installed")
 (26/12/16 Bug Droit d'accès et bug de fin de minutetie Ok)
 Lance une minuterie de Jarvis pour X temps.
 
